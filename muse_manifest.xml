@@ -1,0 +1,958 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" ftp_hostname="ftp://ftp.cultureoflifeafrica.com" ftp_rootfolder="/public_html/stringsattachedfilm" exportTarget="FTP" domain="stringsattachedfilm.com" resolutions="1x,2x" timestamp="1534182234081">
+  <folder name="css">
+    <file name="site_global.css" crc="4061097346"/>
+    <file name="master_interior.css" crc="3963850451" ref="resources:support:news:watch:dvd:meet-obianuju:the-book:about:gallery:screenings:host-a-screening:contact"/>
+    <file name="nomq_preview_master_interior.css" crc="275858672" ref="resources:support:news:watch:dvd:meet-obianuju:the-book:about:gallery:screenings:host-a-screening:contact"/>
+    <file name="master_a-master.css" crc="4212666856" ref="index"/>
+    <file name="nomq_preview_master_a-master.css" crc="3830795850" ref="index"/>
+    <file name="resources.css" crc="518619061" ref="resources"/>
+    <file name="nomq_resources.css" crc="4287296032" ref="resources"/>
+    <file name="support.css" crc="509305703" ref="support"/>
+    <file name="nomq_support.css" crc="411387827" ref="support"/>
+    <file name="news.css" crc="3870595032" ref="news"/>
+    <file name="nomq_news.css" crc="151251022" ref="news"/>
+    <file name="index.css" crc="527285365" ref="index"/>
+    <file name="nomq_index.css" crc="147705156" ref="index"/>
+    <file name="watch.css" crc="3994988880" ref="watch"/>
+    <file name="nomq_watch.css" crc="4243267767" ref="watch"/>
+    <file name="dvd.css" crc="4232447832" ref="dvd"/>
+    <file name="nomq_dvd.css" crc="62268888" ref="dvd"/>
+    <file name="meet-obianuju.css" crc="503641237" ref="meet-obianuju"/>
+    <file name="nomq_meet-obianuju.css" crc="4158057506" ref="meet-obianuju"/>
+    <file name="the-book.css" crc="179070219" ref="the-book"/>
+    <file name="nomq_the-book.css" crc="4267924842" ref="the-book"/>
+    <file name="about.css" crc="3935138293" ref="about"/>
+    <file name="nomq_about.css" crc="4113365310" ref="about"/>
+    <file name="gallery.css" crc="379823096" ref="gallery"/>
+    <file name="nomq_gallery.css" crc="3931282802" ref="gallery"/>
+    <file name="screenings.css" crc="288163350" ref="screenings"/>
+    <file name="nomq_screenings.css" crc="4128891073" ref="screenings"/>
+    <file name="host-a-screening.css" crc="11641809" ref="host-a-screening"/>
+    <file name="nomq_host-a-screening.css" crc="500951490" ref="host-a-screening"/>
+    <file name="contact.css" crc="3926620332" ref="contact"/>
+    <file name="nomq_contact.css" crc="4203042668" ref="contact"/>
+  </folder>
+  <folder name="fonts">
+    <file name="sf-movie-poster.ttf.woff" crc="4185928960"/>
+    <file name="sf-movie-poster.ttf.eot" crc="141692456"/>
+    <file name="sf-movie-poster.ttf.svg" crc="3784287106"/>
+    <file name="69ba0f59-7125-4e6d-be3a-dfdf64999bb2.woff" crc="111017107"/>
+    <file name="b11372f1-48b9-4260-a8f5-e96dbda91adb.eot" crc="512009104"/>
+  </folder>
+  <folder name="assets">
+    <file name="poster-final.jpg" crc="306627912" seo="true" mt="1533564599000"/>
+    <file name="fb-profile.png" crc="269735431" seo="true" mt="1511823703000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd"/>
+    <file name="museutils.js" crc="3803043152" ref="index:about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd"/>
+    <file name="whatinput.js" crc="86476730" ref="index:about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:about:meet-obianuju"/>
+    <file name="webpro.js" crc="242022427" ref="index:about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="index"/>
+    <file name="touchswipe.js" crc="4066113679" ref="index"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="index:about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd"/>
+    <file name="musewpdisclosure.js" crc="119288625" ref="index:about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd"/>
+    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd"/>
+    <file name="require.js" crc="4157109226" ref="index:about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd"/>
+    <file name="form_check.php" crc="147359589" ref="contact"/>
+    <file name="form_throttle.php" crc="93986428" ref="contact"/>
+    <file name="form_process.php" crc="3851993751" ref="contact"/>
+    <file name="form-u9924.php" crc="3881137419" ref="contact"/>
+  </folder>
+  <folder name="images">
+    <file name="a-master-favicon.ico" crc="302013093" ref="index"/>
+    <file name="background.png" crc="4005894675" ref="index:about">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="web-background-crop-u26307.png" crc="30134431" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="web-background-crop-u26307_2x.png" crc="4277704025" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="play-button-u27373.png" crc="188141918" ref="index"/>
+    <file name="play-button-u27373_2x.png" crc="4230524022" ref="index"/>
+    <file name="web-logo-black.png" crc="433164504" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="web-logo-black_2x.png" crc="184474517" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd"/>
+    <file name="socialfb35x35.png" crc="3946787512" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialfb35x35_2x.png" crc="4204629268" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialtw35x35.png" crc="3905637103" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialtw35x35_2x.png" crc="340335998" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialyt35x35.png" crc="4154432135" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialyt35x35_2x.png" crc="388258556" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="86-logo-black-web44x40.png" crc="4032445394" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="86-logo-black-web44x40_2x.png" crc="3862606367" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="web-background843x735.png" crc="329581002" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="web-background843x735_2x.png" crc="3922102913" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="play-button-u273732.png" crc="4050354316" ref="index"/>
+    <file name="play-button-u27373_2x2.png" crc="4107535853" ref="index"/>
+    <file name="web-logo-black177x120.png" crc="4060508088" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="web-logo-black177x120_2x.png" crc="184474517" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialfb33x33.png" crc="54709448" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialfb33x33_2x.png" crc="3946672394" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialtw33x33.png" crc="4057145478" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialtw33x33_2x.png" crc="61425918" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialyt33x33.png" crc="4164323177" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialyt33x33_2x.png" crc="3812715803" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="86-logo-black-web.png" crc="27058567" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="86-logo-black-web_2x.png" crc="3795011838" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="background-mobile.png" crc="4033473737" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="play-button-u273733.png" crc="3978303809" ref="index"/>
+    <file name="play-button-u27373_2x3.png" crc="3788009082" ref="index"/>
+    <file name="web-logo-black158x108.png" crc="4116664575" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="web-logo-black158x108_2x.png" crc="184474517" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialfb31x31.png" crc="232100252" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialfb31x31_2x.png" crc="3893980375" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialtw31x31.png" crc="373419005" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialtw31x31_2x.png" crc="316654241" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialyt31x31.png" crc="43275958" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="socialyt31x31_2x.png" crc="4194223701" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="86-logo-black-web40x37.png" crc="4094103065" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="86-logo-black-web40x37_2x.png" crc="420974151" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="background-mobile2.png" crc="4157010853" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="background-mobile_2x.png" crc="4033473737" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="play-button-u273734.png" crc="386678056" ref="index"/>
+    <file name="play-button-u27373_2x4.png" crc="182251289" ref="index"/>
+    <file name="web-logo-black-crop-u27895.png" crc="256503400" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="web-logo-black-crop-u27895_2x.png" crc="246182323" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="play-button-u273735.png" crc="386678056" ref="index"/>
+    <file name="play-button-u27373_2x5.png" crc="182251289" ref="index"/>
+    <file name="web-logo-black179x122.png" crc="3809114306" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="web-logo-black179x122_2x.png" crc="184474517" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="86-logo-black-web30x27.png" crc="475326733" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="86-logo-black-web30x27_2x.png" crc="4032746372" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="play-button-u273736.png" crc="3947134710" ref="index"/>
+    <file name="play-button-u27373_2x6.png" crc="196763574" ref="index"/>
+    <file name="86-logo-black-web29x27.png" crc="475326733" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="86-logo-black-web29x27_2x.png" crc="4032746372" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="interior-favicon.ico" crc="302013093" ref="about"/>
+    <file name="web-background-crop-u31486.png" crc="4094649599" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="web-background-crop-u31486_2x.png" crc="4204884367" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="grid_overlay.png" crc="87407182" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="grid_overlay_2x.png" crc="349792089" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="web-logo.png" crc="319982997" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="support" alt=""/>
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+      <caption webpage="resources" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="web-logo_2x.png" crc="175564486" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="support" alt=""/>
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+      <caption webpage="resources" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="img_0535-crop-u27266.png" crc="4119587424" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="img_0535-crop-u27266_2x.png" crc="3938937788" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="johnwojtasek159x154.png" crc="3849113759" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="johnwojtasek159x154_2x.png" crc="3821810440" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="_mg_5236-crop-u27263.png" crc="514428039" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="_mg_5236-crop-u27263_2x.png" crc="76729315" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="background2.png" crc="4217754034" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="background_2x.png" crc="4005894675" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="web-background792x691.png" crc="3784941642" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="web-background792x691_2x.png" crc="4014685263" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="img_0535-crop-u272662.png" crc="4026068770" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="img_0535-crop-u27266_2x2.png" crc="381383476" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="johnwojtasek126x122.png" crc="30396069" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="johnwojtasek126x122_2x.png" crc="321246594" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="_mg_5236-crop-u272632.png" crc="42109910" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="_mg_5236-crop-u27263_2x2.png" crc="4030497980" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="img_0535-crop-u272663.png" crc="517625095" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="img_0535-crop-u27266_2x3.png" crc="231862733" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="johnwojtasek.png" crc="4169504114" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="johnwojtasek_2x.png" crc="477554661" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="_mg_5236-crop-u272633.png" crc="4145918858" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="_mg_5236-crop-u27263_2x3.png" crc="3837838654" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="background-mobile3.png" crc="4157010853" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="background-mobile_2x2.png" crc="4033473737" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="web-logo151x103.png" crc="199606347" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="web-logo151x103_2x.png" crc="437123702" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="socialyt.png" crc="246573058" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="socialyt_2x.png" crc="4029622079" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="socialfb.png" crc="4268318082" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="socialfb_2x.png" crc="463316859" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="socialtw.png" crc="3924772065" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="socialtw_2x.png" crc="455056637" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="img_0535-crop-u272664.png" crc="517625095" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="img_0535-crop-u27266_2x4.png" crc="231862733" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="_mg_5236-crop-u272634.png" crc="4145918858" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="_mg_5236-crop-u27263_2x4.png" crc="3837838654" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="background-mobile-crop-u32109.png" crc="530000152" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="background-mobile-crop-u32109_2x.png" crc="3980390895" seo="true" ref="about:resources:contact:watch:gallery:meet-obianuju:news:the-book:screenings:host-a-screening:support:dvd">
+      <caption webpage="support" alt=""/>
+      <caption webpage="support" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="host-a-screening" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="news" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="watch" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="meet-obianuju" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="screenings" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="the-book" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="about" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="gallery" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="dvd" alt=""/>
+      <caption webpage="resources" alt=""/>
+      <caption webpage="resources" alt=""/>
+    </file>
+    <file name="socialyt41x41.png" crc="126300334" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="socialyt41x41_2x.png" crc="3968097432" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="socialfb41x41.png" crc="276726290" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="socialfb41x41_2x.png" crc="109276624" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="socialtw41x41.png" crc="3926762953" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="socialtw41x41_2x.png" crc="204580308" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="web-logo128x87.png" crc="71661750" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="web-logo128x87_2x.png" crc="528112674" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="img_0535-crop-u272665.png" crc="517625095" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="img_0535-crop-u27266_2x5.png" crc="231862733" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="_mg_5236-crop-u272635.png" crc="4145918858" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="_mg_5236-crop-u27263_2x5.png" crc="3837838654" seo="true" ref="about">
+      <caption webpage="about" alt=""/>
+    </file>
+    <file name="img_0535.jpg" crc="3766138762" ref="meet-obianuju">
+      <caption webpage="meet-obianuju" alt=""/>
+    </file>
+    <file name="img_05352.jpg" crc="3911066616" ref="meet-obianuju">
+      <caption webpage="meet-obianuju" alt=""/>
+    </file>
+    <file name="img_0535_2x.jpg" crc="3766138762" ref="meet-obianuju">
+      <caption webpage="meet-obianuju" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20545 pm309x206.png" crc="3833957260" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20545 pm309x206_2x.png" crc="114338901" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20859 pm308x206.png" crc="50262959" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20859 pm308x206_2x.png" crc="4193427498" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 21003 pm337x189.png" crc="4239867786" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 21003 pm337x189_2x.png" crc="3819695681" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="img_0535-crop-u22338.png" crc="3854481217" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20545 pm292x195.png" crc="215589817" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20545 pm292x195_2x.png" crc="279705549" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20859 pm292x195.png" crc="159352283" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20859 pm292x195_2x.png" crc="138164759" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 21003 pm319x179.png" crc="42976942" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 21003 pm319x179_2x.png" crc="458141899" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="img_0535-crop-u223382.png" crc="48580116" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20545 pm326x217.png" crc="3903515651" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20545 pm326x217_2x.png" crc="4272219813" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20859 pm326x218.png" crc="4085471264" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20859 pm326x218_2x.png" crc="4078395985" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="img_0535-crop-u223383.png" crc="467676784" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 21003 pm355x200.png" crc="3994338367" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 21003 pm355x200_2x.png" crc="149358059" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20545 pm-crop-u22218.png" crc="4151254140" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20545 pm-crop-u22218_2x.png" crc="527930659" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20859 pm-crop-u22301.png" crc="3957307991" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20859 pm-crop-u22301_2x.png" crc="536062782" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="img_0535-crop-u223384.png" crc="419561444" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 21003 pm-crop-u22335.png" crc="333929183" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 21003 pm-crop-u22335_2x.png" crc="4079559089" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20545 pm-crop-u222182.png" crc="252297980" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20545 pm-crop-u22218_2x2.png" crc="3810520998" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20859 pm-crop-u223012.png" crc="3841378480" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 20859 pm-crop-u22301_2x2.png" crc="4206739153" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="img_0535-crop-u223385.png" crc="3868203097" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 21003 pm-crop-u223352.png" crc="6419133" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="screen shot 2018-05-17 at 21003 pm-crop-u22335_2x2.png" crc="504166433" seo="true" ref="news">
+      <caption webpage="news" alt=""/>
+    </file>
+    <file name="img_6860.jpg" crc="504631599" seo="true" ref="the-book">
+      <caption webpage="the-book" alt=""/>
+    </file>
+    <file name="img_6860_2x.jpg" crc="4251990220" seo="true" ref="the-book">
+      <caption webpage="the-book" alt=""/>
+    </file>
+    <file name="img_6860161x244.jpg" crc="3870167121" seo="true" ref="the-book">
+      <caption webpage="the-book" alt=""/>
+    </file>
+    <file name="img_6860161x244_2x.jpg" crc="261909810" seo="true" ref="the-book">
+      <caption webpage="the-book" alt=""/>
+    </file>
+    <file name="img_6860186x281.jpg" crc="485129396" seo="true" ref="the-book">
+      <caption webpage="the-book" alt=""/>
+    </file>
+    <file name="img_6860186x281_2x.jpg" crc="254072891" seo="true" ref="the-book">
+      <caption webpage="the-book" alt=""/>
+    </file>
+    <file name="img_6860143x216.jpg" crc="27112397" seo="true" ref="the-book">
+      <caption webpage="the-book" alt=""/>
+    </file>
+    <file name="img_6860143x216_2x.jpg" crc="237892907" seo="true" ref="the-book">
+      <caption webpage="the-book" alt=""/>
+    </file>
+    <file name="img_6860195x294.jpg" crc="470733398" seo="true" ref="the-book">
+      <caption webpage="the-book" alt=""/>
+    </file>
+    <file name="img_6860195x294_2x.jpg" crc="3789575169" seo="true" ref="the-book">
+      <caption webpage="the-book" alt=""/>
+    </file>
+    <file name="poster-final-small.png" crc="338914807" seo="true" ref="dvd">
+      <caption webpage="dvd" alt=""/>
+    </file>
+    <file name="poster-final-small158x244.png" crc="105510998" seo="true" ref="dvd">
+      <caption webpage="dvd" alt=""/>
+    </file>
+    <file name="poster-final-small182x281.png" crc="3775202884" seo="true" ref="dvd">
+      <caption webpage="dvd" alt=""/>
+    </file>
+    <file name="poster-final-small140x215.png" crc="113871358" seo="true" ref="dvd">
+      <caption webpage="dvd" alt=""/>
+    </file>
+    <file name="poster-final-small191x294.png" crc="4221603605" seo="true" ref="dvd">
+      <caption webpage="dvd" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="385561179" seo="true" mt="1534182107118" redirect="true"/>
+  <file name="about.html" crc="3840310637" seo="true" mt="1533818264218" redirect="true"/>
+  <file name="resources.html" crc="254280766" seo="true" mt="1533822723745" redirect="true"/>
+  <file name="contact.html" crc="4115139668" seo="true" mt="1533855307475" redirect="true"/>
+  <file name="watch.html" crc="3775659234" seo="true" mt="1533822305384" redirect="true"/>
+  <file name="gallery.html" crc="3959448866" seo="true" mt="1533818264218" redirect="true"/>
+  <file name="meet-obianuju.html" crc="3920355310" seo="true" mt="1533823433961" redirect="true"/>
+  <file name="news.html" crc="135775791" seo="true" mt="1533818264218" redirect="true"/>
+  <file name="the-book.html" crc="214986643" seo="true" mt="1533818264218" redirect="true"/>
+  <file name="screenings.html" crc="530199953" seo="true" mt="1533818264218" redirect="true"/>
+  <file name="host-a-screening.html" crc="431741591" seo="true" mt="1533821060274" redirect="true"/>
+  <file name="support.html" crc="3798595776" seo="true" mt="1533821148395" redirect="true"/>
+  <file name="dvd.html" crc="4010141828" seo="true" mt="1533822859019" redirect="true"/>
+  <site>
+    <asset filename="port-slider1.jpg" muse_href="upload:U12601"/>
+    <asset filename="port-slider2.jpg" muse_href="upload:U12603"/>
+    <asset filename="port-slider3.jpg" muse_href="upload:U12605"/>
+    <asset filename="port-slider4.jpg" muse_href="upload:U12607"/>
+    <asset filename="ico-play-btn.png" muse_href="upload:U12610"/>
+    <asset filename="ico-close-btn.png" muse_href="upload:U12977"/>
+    <asset filename="img-grid1.jpg" muse_href="upload:U12979"/>
+    <asset filename="img-grid3.jpg" muse_href="upload:U12981"/>
+    <asset filename="img-grid4.jpg" muse_href="upload:U12983"/>
+    <asset filename="img-grid5.jpg" muse_href="upload:U12985"/>
+    <asset filename="img-grid6.jpg" muse_href="upload:U12987"/>
+    <asset filename="img-grid7.jpg" muse_href="upload:U12989"/>
+    <asset filename="img-grid2.jpg" muse_href="upload:U12991"/>
+    <asset filename="img-grid8.jpg" muse_href="upload:U12993"/>
+    <asset filename="img-grid9.jpg" muse_href="upload:U12995"/>
+    <asset filename="poster-final.jpg" muse_href="upload:U45322"/>
+    <asset filename="fb-profile.png" muse_href="upload:U45324"/>
+    <asset filename="poster-final.png" muse_href="upload:U52969"/>
+    <paragraphStyle className="normal_text" uid="U49"/>
+    <paragraphStyle className="footer-links" uid="U312"/>
+    <paragraphStyle className="footer-links-hover" uid="U313"/>
+    <paragraphStyle className="nav-links" uid="U372"/>
+    <paragraphStyle className="nav-links-hover" uid="U373"/>
+    <paragraphStyle className="h1---display-center-light" uid="U6904"/>
+    <paragraphStyle className="h2---display-center-light" uid="U6905"/>
+    <paragraphStyle className="h1---heading-left-dark" uid="U7969"/>
+    <paragraphStyle className="h3---subheading-center-dark" uid="U8070"/>
+    <paragraphStyle className="h3---subheading-center-light" uid="U8204"/>
+    <paragraphStyle className="h1---heading-left-light" uid="U8581"/>
+    <paragraphStyle className="p---body-copy" uid="U9242"/>
+    <paragraphStyle className="h4---title" uid="U9390"/>
+    <paragraphStyle className="h3---subheading-left-dark" uid="U9490"/>
+    <paragraphStyle className="h1---display-center-dark" uid="U16928"/>
+    <paragraphStyle className="p---body-left-dark" uid="U21758"/>
+    <paragraphStyle className="P-Body-Copy" uid="U21795"/>
+    <paragraphStyle className="h4---subheading-center-dark" uid="U22760"/>
+    <characterStyle className="Main_Text" uid="U1490"/>
+    <characterStyle className="Secondary_Text" uid="U1519"/>
+    <textLinkStyle className="light-over-dark" uid="U33586"/>
+    <nestedListStyle className="nls-None" uid="U52"/>
+  </site>
+  <renditions>
+    <rendition device="desktop">
+      <page name="Home" filename="index.html" muse_href="page:U93" master="U72">
+        <breakpoint uid="U24691" maxwidth="406" minwidth="0" squishy="true"/>
+        <breakpoint uid="U7849" maxwidth="550" minwidth="407" squishy="true"/>
+        <breakpoint uid="U7633" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U969" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U83" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+      <masterPage name="A-Master" master="U62" uid="U72">
+        <breakpoint uid="U24852" maxwidth="408" minwidth="0" squishy="true"/>
+        <breakpoint uid="U1283" maxwidth="550" minwidth="409" squishy="true"/>
+        <breakpoint uid="U1213" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U434" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U73" maxwidth="1200" minwidth="961" squishy="false"/>
+      </masterPage>
+      <masterPage name="None" master="null" uid="U62">
+        <breakpoint uid="U63" maxwidth="1200" minwidth="0" squishy="true"/>
+      </masterPage>
+      <page name="About" filename="about.html" muse_href="page:U9185" master="U21217">
+        <breakpoint uid="U8889" maxwidth="550" minwidth="0" squishy="true"/>
+        <breakpoint uid="U8816" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U9103" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U8965" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+      <masterPage name="interior" master="U62" uid="U21217">
+        <breakpoint uid="U24954" maxwidth="408" minwidth="0" squishy="true"/>
+        <breakpoint uid="U21338" maxwidth="550" minwidth="409" squishy="true"/>
+        <breakpoint uid="U21472" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U21272" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U21405" maxwidth="1200" minwidth="961" squishy="false"/>
+      </masterPage>
+      <page name="Resources" filename="resources.html" muse_href="page:U9737" master="U21217">
+        <breakpoint uid="U9539" maxwidth="550" minwidth="0" squishy="true"/>
+        <breakpoint uid="U9578" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U9656" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U9501" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+      <page name="Contact" filename="contact.html" muse_href="page:U9922" master="U21217">
+        <breakpoint uid="U9902" maxwidth="550" minwidth="0" squishy="true"/>
+        <breakpoint uid="U9847" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U9829" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U9865" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+      <page name="Watch" filename="watch.html" muse_href="page:U10518" master="U21217">
+        <breakpoint uid="U10340" maxwidth="550" minwidth="0" squishy="true"/>
+        <breakpoint uid="U10427" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U10384" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U10297" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+      <page name="Gallery" filename="gallery.html" muse_href="page:U21962" master="U21217">
+        <breakpoint uid="U21907" maxwidth="550" minwidth="0" squishy="true"/>
+        <breakpoint uid="U21936" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U21885" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U21854" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+      <page name="Meet Obianuju" filename="meet-obianuju.html" muse_href="page:U22125" master="U21217">
+        <breakpoint uid="U21977" maxwidth="550" minwidth="0" squishy="true"/>
+        <breakpoint uid="U22059" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U22092" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U22027" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+      <page name="News" filename="news.html" muse_href="page:U22261" master="U21217">
+        <breakpoint uid="U22230" maxwidth="550" minwidth="0" squishy="true"/>
+        <breakpoint uid="U22135" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U22188" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U22161" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+      <page name="The Book" filename="the-book.html" muse_href="page:U23591" master="U21217">
+        <breakpoint uid="U24458" maxwidth="408" minwidth="0" squishy="true"/>
+        <breakpoint uid="U23521" maxwidth="550" minwidth="409" squishy="true"/>
+        <breakpoint uid="U23497" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U23543" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U23570" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+      <page name="Screenings" filename="screenings.html" muse_href="page:U34277" master="U21217">
+        <breakpoint uid="U34178" maxwidth="550" minwidth="0" squishy="true"/>
+        <breakpoint uid="U34203" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U34228" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U34252" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+      <page name="Host a Screening" filename="host-a-screening.html" muse_href="page:U44746" master="U21217">
+        <breakpoint uid="U44721" maxwidth="550" minwidth="0" squishy="true"/>
+        <breakpoint uid="U44675" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U44696" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U44653" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+      <page name="Support" filename="support.html" muse_href="page:U44979" master="U21217">
+        <breakpoint uid="U44954" maxwidth="550" minwidth="0" squishy="true"/>
+        <breakpoint uid="U44908" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U44929" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U44886" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+      <page name="DVD" filename="dvd.html" muse_href="page:U45313" master="U21217">
+        <breakpoint uid="U45280" maxwidth="408" minwidth="0" squishy="true"/>
+        <breakpoint uid="U45225" maxwidth="550" minwidth="409" squishy="true"/>
+        <breakpoint uid="U45251" maxwidth="768" minwidth="551" squishy="false"/>
+        <breakpoint uid="U45163" maxwidth="960" minwidth="769" squishy="false"/>
+        <breakpoint uid="U45190" maxwidth="1200" minwidth="961" squishy="false"/>
+      </page>
+    </rendition>
+  </renditions>
+</manifest>
